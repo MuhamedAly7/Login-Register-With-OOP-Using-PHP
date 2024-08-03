@@ -95,7 +95,7 @@
         <div class="index-login-login">
             <h4>LOGIN</h4>
             <p>Already have an account? Log in here!</p>
-            <form action="" method="POST">
+            <form action="./includes/login_inc.php" method="POST">
                 <input type="text" name="uid" placeholder="Username" required>
                 <input type="password" name="pwd" placeholder="Password" required>
                 <button type="submit" name="submit_login">LOGIN</button>
